@@ -1,0 +1,38 @@
+{
+  "name": "boilersync-react",
+  "version": "0.1.0",
+  "description": "Shared React components and utilities for BoilerSync template workflows.",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run build:multi-react && npm run clean && tsc -p tsconfig.build.json",
+    "build:multi-react": "npm --prefix ../multi-react install --include=dev --ignore-scripts && npm --prefix ../multi-react run build"
+  },
+  "peerDependencies": {
+    "react": ">=18 <20",
+    "react-dom": ">=18 <20"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "multi-react": "file:../multi-react",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.11",
+    "@types/react-dom": "^19.0.4",
+    "typescript": "^5.8.2"
+  }
+}
