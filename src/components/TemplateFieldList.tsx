@@ -1,5 +1,5 @@
 import type { FieldValues, TemplateInputField } from "../types/templates";
-import { cn } from "../utils/cn";
+import { cn } from "multi-react";
 import {
   getTemplateFieldLabel,
   getTemplateFieldType,
