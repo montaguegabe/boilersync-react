@@ -1,8 +1,8 @@
 # boilersync-react
 
-Shared React components and utilities for BoilerSync template workflows.
+React components and utilities for [BoilerSync](https://github.com/montaguegabe/boilersync) template workflows.
 
-This package provides reusable UI and data helpers for reading BoilerSync template metadata, rendering template input fields, collecting field values, and re-exporting shared diff viewer utilities from `multi-react` for Openbase Coder frontends.
+This package is the reusable React companion for BoilerSync. It provides UI and data helpers for displaying BoilerSync template metadata, rendering template input fields, collecting field values, and preparing those values for BoilerSync commands.
 
 ## Installation
 
@@ -50,7 +50,7 @@ const initialValues = buildInitialFieldValues(fields);
 - `TemplateInput`
 - BoilerSync template metadata types
 - Template field value helpers
-- Shared `multi-react` diff viewer exports
+- Shared diff viewer exports used by Openbase Coder frontends
 
 ## License
 
