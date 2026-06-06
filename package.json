@@ -2,7 +2,7 @@
   "name": "boilersync-react",
   "version": "0.1.0",
   "description": "Shared React components and utilities for BoilerSync template workflows.",
-  "license": "MIT",
+  "license": "AGPL-3.0-only",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
