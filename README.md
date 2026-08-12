@@ -50,7 +50,7 @@ const initialValues = buildInitialFieldValues(fields);
 - `TemplateInput`
 - BoilerSync template metadata types
 - Template field value helpers
-- Shared diff viewer exports used by Openbase Coder frontends
+- Shared diff viewer exports used by Openbase frontends
 
 ## License
 
